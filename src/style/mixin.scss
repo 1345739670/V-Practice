@@ -1,0 +1,9 @@
+@mixin b($prefix, $block) {
+  .#{$prefix}-#{$block} {
+    @content;
+  }
+}
+
+@mixin mt($val) {
+  margin-top: #{$val}px;
+}
